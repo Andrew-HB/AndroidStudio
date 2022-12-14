@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/counterView"
+        android:layout_width="311dp"
+        android:layout_height="83dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <Button
+        android:id="@+id/counterButton"
+        android:layout_width="214dp"
+        android:layout_height="74dp"
+        android:onClick="onClickCounter"
+        android:text="Increase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/counterView"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/counterButton2"
+        android:layout_width="214dp"
+        android:layout_height="74dp"
+        android:onClick="onClickReset"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/counterButton"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <Switch
+        android:id="@+id/switchStandard"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:text="Cheat Mode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/counterButton2"
+        app:layout_constraintVertical_bias="0.107" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
