@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Project6/app/src/main/res/layout/activity_application.xml" value="0.4" />
+        <entry key="..\:/Android/Project6/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Android/Project6/app/src/main/res/layout/activity_second.xml" value="0.536" />
+        <entry key="..\:/Android/Project6/app/src/main/res/layout/activity_third.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/Project6/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/Project6/app/src/main/res/layout/activity_second.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/Project6/app/src/main/res/layout/activity_third.xml" value="0.22447916666666667" />
+        <entry key="..\:/Projects/Android/LabWorks/LabWork_6/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/LabWorks/LabWork_6/app/src/main/res/layout/activity_third.xml" value="0.264" />
+        <entry key="..\:/Users/andre/Desktop/a/AndroidProjects/Project6/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/andre/Desktop/a/AndroidProjects/Project6/app/src/main/res/layout/activity_second.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/andre/Desktop/a/AndroidProjects/Project6/app/src/main/res/layout/activity_third.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
